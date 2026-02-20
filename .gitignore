@@ -259,3 +259,8 @@ config/local.*
 test_output/
 tmp/
 temp/
+
+practicas/introduccion_procesamiento_digital/resultados_entropia_flores.csv
+practicas/introduccion_procesamiento_digital/resultados_entropia.csv
+practicas/introduccion_procesamiento_digital/dataset/
+practicas/introduccion_procesamiento_digital/dataset2/
