@@ -1,0 +1,261 @@
+# =============================================================================
+# Bibliotecas y dependencias grandes (no versionar)
+# =============================================================================
+ITK/
+opencv-dev/
+
+
+# =============================================================================
+# Python
+# =============================================================================
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Archivos compilados y caché
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Distribución / empaquetado
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+.eggs/
+
+# Testing y análisis
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+.coverage
+.tox/
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# Logs de Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+# =============================================================================
+# C/C++
+# =============================================================================
+# Archivos objeto y precompilados
+*.o
+*.obj
+*.ko
+*.elf
+*.lo
+*.slo
+
+# Librerías compiladas
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Ejecutables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Binarios específicos del proyecto
+detector_rostros
+detector_manos
+mostrar_imagen
+hu
+fourier
+main
+shape_app
+practica4_1C
+
+# CMake
+build/
+Build/
+BUILD/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Makefiles generados (no los del proyecto)
+Makefile.in
+*.cmake
+!CMakeLists.txt
+!*Config.cmake
+!*-config.cmake
+
+
+# =============================================================================
+# Android
+# =============================================================================
+# Gradle
+.gradle/
+*.iml
+.idea/
+local.properties
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Android Studio
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx/
+*/.cxx/
+*/build/
+.navigation/
+
+# NDK
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# OpenCV SDK para Android (reutilizable pero pesado)
+OpenCV-android-sdk/
+opencv-sdk/
+opencv2/
+*/android/opencv/
+
+
+# =============================================================================
+# Machine Learning y Modelos
+# =============================================================================
+# Modelos pre-entrenados (muy pesados)
+*.pt
+*.pth
+*.onnx
+*.pb
+*.tflite
+*.h5
+
+# YOLO
+yolo*.pt
+runs/
+weights/
+
+# Datasets (usualmente muy grandes)
+datasets/
+data/images/
+data/videos/
+*.mp4
+*.avi
+*.mov
+
+# Excepción: permitir algunos modelos pequeños críticos si es necesario
+# !models/critical_model.pt
+
+
+# =============================================================================
+# IDEs y Editores
+# =============================================================================
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+Thumbs.db
+*.code-workspace
+.project
+.classpath
+.settings/
+
+
+# =============================================================================
+# Archivos temporales y logs
+# =============================================================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+*.pid
+*.seed
+*.pid.lock
+.npm
+.eslintcache
+
+
+# =============================================================================
+# Outputs y resultados
+# =============================================================================
+# Archivos CSV de resultados (pueden ser grandes)
+histograma.csv
+corpus.csv
+resultados_*/
+
+# PDFs generados (documentos académicos suelen recompilarse)
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Excepción: mantener PDFs finales de informes
+!Informe_*.pdf
+!*_final.pdf
+
+
+# =============================================================================
+# Sistema operativo
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+
+# =============================================================================
+# Específicos del proyecto
+# =============================================================================
+# Claves y configuración sensible
+.env
+.env.local
+*.key
+*.pem
+secrets/
+config/local.*
+
+# Archivos de prueba temporal
+test_output/
+tmp/
+temp/
