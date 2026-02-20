@@ -1,6 +1,6 @@
 [submodule "Final-Vision-por-Computador"]
 	path = Final-Vision-por-Computador
-	url = ./Final-Vision-por-Computador
+	url = https://github.com/FepDev25/Deteccion-de-Peatones.git
 [submodule "Interciclo-Vision-por-Computador"]
 	path = Interciclo-Vision-por-Computador
-	url = ./Interciclo-Vision-por-Computador
+	url = https://github.com/SSuquilanda/Interciclo-Vision-por-Computador
