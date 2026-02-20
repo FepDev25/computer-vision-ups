@@ -1,0 +1,12 @@
+cisco@cisco-optiplex7000:~/Downloads/codigo/Practica-Clasificacion-de-Objetos/1C/build$ ./vision_app video.mp4 salida-gpu.avi --gpu
+>>> MODO: GPU (CUDA) ACTIVADO <<<
+Resumen de ejecucion
+  Frames procesados: 404
+  Promedio: 1.25 ms/frame (800.7 fps)
+  Mejor fps: 1103.7 | Peor fps: 29.1
+cisco@cisco-optiplex7000:~/Downloads/codigo/Practica-Clasificacion-de-Objetos/1C/build$ ./vision_app video.mp4 salida-cpu.avi --cpu
+>>> modo CPU <<<
+Resumen de ejecucion
+  Frames procesados: 404
+  Promedio: 2.45 ms/frame (407.4 fps)
+  Mejor fps: 1034.5 | Peor fps: 52.1
