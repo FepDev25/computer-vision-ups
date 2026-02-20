@@ -1,0 +1,15 @@
+x y -> coordenadas plano bidimensional
+"momento de orden p q"
+
+ej:
+    orden 0-0 de la letra A en 0s y 1s
+    
+
+escala de grises: suma de niveles 
+blanco y negro: área
+
+traslacion?
+    invariantes: restar el centroide
+
+escala:
+    momento centralizado / ...

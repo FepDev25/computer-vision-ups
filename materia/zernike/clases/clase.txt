@@ -1,0 +1,52 @@
+Zernike
+
+momentos de Zernike: numeros que se pueden calcular a partir de una imagen
+descriptores de imagen hortogonales
+reconocer patrones sin importar la orientacion
+calcular el momento y calcular el polinomio
+parametro n y m, numero enteros, matriz imagen y calcular los momentos de Zernike de la imagen
+radio toma todo el area de interes
+ro = radio normalizado en 0 y 1
+
+momento de Zernike: Funcion de base
+Polinomio radial -> se calcula
+
+Condiciones a cumplirse:
+    n -> positivo o 0
+    m -> positivo o negativo que:
+        n - |m| debe ser par
+        |m| <= n
+
+1. normalizar las coordenadas
+    centro geometrico
+    definir las coordenadas cartsianas centradas
+    calcular el factor de escala
+
+
+Vmn(ro, teta) -> base conjugada
+R = polinomio radial
+A = momento
+
+calcular el centro 
+
+teta=arctan()
+
+complejo conjugado= -j en exp(jmtheta)
+
+x' = x - cx
+
+Rmax = factor de escala, depende del tamaño de la matriz, cualquiera de las esquinas
+9x7 va a ser 4,3
+
+ro, el radio maximo es 1
+
+calcular coordenadas normalizadas
+    formula de ro
+
+Calculo de polinomio
+
+Calculo numerico de la matriz
+    coordenadas normalizadas
+    radio normalizado, distancia al pixel
+
+Convolucion

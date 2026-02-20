@@ -1,0 +1,2 @@
+Imagen y template, y vamos a buscar donde esta el template en la imagen completa
+hacer un barrido
