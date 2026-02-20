@@ -1,0 +1,6 @@
+[submodule "Final-Vision-por-Computador"]
+	path = Final-Vision-por-Computador
+	url = ./Final-Vision-por-Computador
+[submodule "Interciclo-Vision-por-Computador"]
+	path = Interciclo-Vision-por-Computador
+	url = ./Interciclo-Vision-por-Computador
